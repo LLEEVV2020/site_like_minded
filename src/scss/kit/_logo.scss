@@ -1,5 +1,11 @@
 .logo{
     position: relative;
+    padding-top: .603em;
+    padding-top: 0.425em;
+    padding-bottom: .425em;
+}
+.logo:hover,
+.logo{
     color: #4DBCE9;
 }
 .logo::before{
@@ -7,9 +13,23 @@
     position: absolute;
     top: 0;
     left: 50%;
-    width: 80%;
+    width: 63%;
     height: 100%;
     border-top: 1px solid currentColor;
     border-bottom: 1px solid currentColor;
     transform: translateX(-50%);
+}
+.logo::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-0.1em) scale(1.05);;
+    background-image: url(img/corner.svg);
+    width: 0.813em;
+    height: 0.375em;
+    background-color: #191C2B;
+    padding: 0 1em;
+    background-repeat: no-repeat;
+    background-position: center;
 }
