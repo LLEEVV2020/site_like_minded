@@ -1,8 +1,9 @@
+
 @font-face {
-	font-family: Rubik;
+	font-family: icomoon;
 	font-display:swap;
-	src:url("../fonts/Rubik-BlackItalic.woff2") format("woff2");
-	src:url("../fonts/Rubik-BlackItalic.woff") format("woff");
+	src:url("../fonts/icomoon.woff2") format("woff2");
+	src:url("../fonts/icomoon.woff") format("woff");
 	font-weight:400;
 	font-style:normal;
 }
@@ -25,8 +26,8 @@
 @font-face {
 	font-family: Rubik;
 	font-display:swap;
-	src:url("../fonts/Rubik-BoldItalic.woff2") format("woff2");
-	src:url("../fonts/Rubik-BoldItalic.woff") format("woff");
+	src:url("../fonts/Rubik-BlackItalic.woff2") format("woff2");
+	src:url("../fonts/Rubik-BlackItalic.woff") format("woff");
 	font-weight:400;
 	font-style:normal;
 }
@@ -49,8 +50,8 @@
 @font-face {
 	font-family: Rubik;
 	font-display:swap;
-	src:url("../fonts/Rubik-Italic.woff2") format("woff2");
-	src:url("../fonts/Rubik-Italic.woff") format("woff");
+	src:url("../fonts/Rubik-BoldItalic.woff2") format("woff2");
+	src:url("../fonts/Rubik-BoldItalic.woff") format("woff");
 	font-weight:400;
 	font-style:normal;
 }
@@ -65,24 +66,16 @@
 @font-face {
 	font-family: Rubik;
 	font-display:swap;
-	src:url("../fonts/Rubik-LightItalic.woff2") format("woff2");
-	src:url("../fonts/Rubik-LightItalic.woff") format("woff");
+	src:url("../fonts/Rubik-Italic.woff2") format("woff2");
+	src:url("../fonts/Rubik-Italic.woff") format("woff");
 	font-weight:400;
 	font-style:normal;
 }
 @font-face {
 	font-family: Rubik;
 	font-display:swap;
-	src:url("../fonts/Rubik-Medium.woff2") format("woff2");
-	src:url("../fonts/Rubik-Medium.woff") format("woff");
-	font-weight:500;
-	font-style:normal;
-}
-@font-face {
-	font-family: Rubik;
-	font-display:swap;
-	src:url("../fonts/Rubik-Regular.woff2") format("woff2");
-	src:url("../fonts/Rubik-Regular.woff") format("woff");
+	src:url("../fonts/Rubik-LightItalic.woff2") format("woff2");
+	src:url("../fonts/Rubik-LightItalic.woff") format("woff");
 	font-weight:400;
 	font-style:normal;
 }
@@ -105,8 +98,24 @@
 @font-face {
 	font-family: Rubik;
 	font-display:swap;
+	src:url("../fonts/Rubik-Regular.woff2") format("woff2");
+	src:url("../fonts/Rubik-Regular.woff") format("woff");
+	font-weight:400;
+	font-style:normal;
+}
+@font-face {
+	font-family: Rubik;
+	font-display:swap;
 	src:url("../fonts/Rubik-SemiBoldItalic.woff2") format("woff2");
 	src:url("../fonts/Rubik-SemiBoldItalic.woff") format("woff");
 	font-weight:400;
+	font-style:normal;
+}
+@font-face {
+	font-family: Rubik;
+	font-display:swap;
+	src:url("../fonts/Rubik-Medium.woff2") format("woff2");
+	src:url("../fonts/Rubik-Medium.woff") format("woff");
+	font-weight:500;
 	font-style:normal;
 }

@@ -1,3 +1,42 @@
-.icon-people{
-    
-}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  
+  .icon-editing::before {
+    content: "\e900";
+  }
+  .icon-exclamation-point::before {
+    content: "\e901";
+  }
+  .icon-item::before {
+    content: "\e902";
+  }
+  .icon-cards::before {
+    content: "\e903";
+  }
+  .icon-connections::before {
+    content: "\e904";
+  }
+  .icon-phone-email::before {
+    content: "\e905";
+  }
+  .icon-peoples::before {
+    content: "\e906";
+  }
+  .icon-people::before {
+    content: "\e907";
+  }
+
