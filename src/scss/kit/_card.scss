@@ -1,0 +1,36 @@
+.card{
+    width: 19rem;
+    border: none;
+    padding: 1rem;
+}
+
+.card .card-header{
+    border-radius: .6rem;
+}
+.card-title{
+   font-weight: 500; 
+   font-size: 1.8rem;
+   margin-bottom: 0.3rem;
+}
+.card-body{
+    padding: 0;
+    padding-top: .5rem;
+}
+.card-header{
+    min-height: 15rem;
+    background-color: #34C0F9;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+
+}
+.card-header-title,
+.card-header-bottom{
+    font-weight: 300;
+    font-size: 1.7rem;
+    color: #fff;
+}
+.card-header-bottom{
+    margin-top: auto;
+    text-align: right;
+}

@@ -12,6 +12,9 @@
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    
+    color: #fff;
   }
   
   
@@ -53,6 +56,46 @@
   [class*=" social-"]::before {
     content: "";
     display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .social-telegram{
+    background-color: #27A6E5;
+  }
+  [class^="social-telegram"]::before, 
+  [class*=" social-telegram"]::before{
+    background-image: url(img/icon/telegram.svg);
+    width: 1.357em;
+    height: 1.214em;
+  }
+  .social-whatsapp{
+    background-color: #48C95F;
+  }
+  .social-whatsapp::before{
+    background-image: url(img/icon/whatsapp.svg);
+    width: 1.500em;
+    height: 1.500em;
+  }
+
+  .social-viber{
+    background-color: #7C509A;
+  }
+  .social-viber::before{
+    background-image: url(img/icon/viber.svg);
+    width: 1.500em;
+    height: 1.643em;
+  }
+  .social-vk-black{
+    background-color: #000000;
+  }
+  .social-vk-black::before{
+    background-image: url(img/icon/vk.svg);
+    width: 1.571em;
+    height: 1.000em;
+  }
+  .social-telegram-black{
+    background-color: #000000;
   }
 
 

@@ -1,0 +1,18 @@
+.btn{
+    font-size: 1.8rem;
+    font-weight: 300;
+    width: 8.889em;
+    height: 2.222em;
+    border-radius: .222em;
+
+    background: var(--btn-primary) ;
+}
+.btn:active{
+    background: var(--btn-primary-active) ;
+}
+.btn:disabled{
+    background: var(--btn-primary-disabled) ;
+}
+.btn:hover{
+    background: var(--btn-primary-hover) ;
+}

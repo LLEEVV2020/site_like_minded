@@ -1,15 +1,13 @@
 html {
     font-size: 62.5%;
 }
-body {
-    font-size: 1.4rem;
-}
 
 body{
     margin: 0;
-    color: #fff;
     font-family: 'Rubik', Arial, Helvetica, sans-serif;
     font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.15;
 }
 
 .wrapper{
@@ -19,4 +17,5 @@ body{
     background-color: #191C2B;
     align-items: center;
     justify-content: center;
+    
 }
