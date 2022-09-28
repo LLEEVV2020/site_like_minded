@@ -40,3 +40,19 @@
     content: "\e907";
   }
 
+  // социальные иконки
+  [class^="social-"], [class*=" social-"] {
+    width: 2.857em;
+    height: 2.857em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  [class^="social-"]::before, 
+  [class*=" social-"]::before {
+    content: "";
+    display: block;
+  }
+
+
