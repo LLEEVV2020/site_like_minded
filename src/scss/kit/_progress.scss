@@ -20,7 +20,7 @@
     height: 1.5rem;
     background-color: #dddddd;
     position: relative;
-    margin-top: 2rem;
+    margin-top: 2.25rem;
     overflow: visible;
     border-radius: 10rem;
 }
@@ -46,5 +46,6 @@
 .progress-bar::after{
     transform: translateY(-100%) translateX(50%);
     background-color: #fff;
+    z-index: 1;
 }
 
