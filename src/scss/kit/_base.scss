@@ -36,3 +36,7 @@ body{
 .gap-5{
     gap: .3rem; 
 }
+
+.after-bg-white::after{
+    background-color: #fff;
+}
