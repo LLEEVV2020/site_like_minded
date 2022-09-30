@@ -40,3 +40,48 @@ body{
 .after-bg-white::after{
     background-color: #fff;
 }
+
+// инкремент
+.counter-increment{
+    counter-reset: items;
+}
+.counter-increment .people-card-img::before{
+    display: block;
+    content: counter(items);
+    counter-increment: items;
+}
+
+// временный блок, не понятно
+// для чего
+.advertisement{
+    width: 32rem;
+}
+.advertisement-logo {
+    height: 15rem;
+    display: flex;
+    align-items: center;
+
+}
+.advertisement .logo{
+    margin-top: 0.425em;
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+}
+.advertisement .logo img{
+    width: 100%;
+}
+.advertisement .logo::after{
+    background-color: #fff;
+}
+.advertisement-title{
+    font-size: 1.8rem;
+    margin-bottom: .6rem;
+    font-weight: 500;
+}
+.advertisement-btn{
+    text-align: right;
+}
+.advertisement-body{
+    margin-bottom: .8rem;
+}
