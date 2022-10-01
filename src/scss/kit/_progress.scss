@@ -17,17 +17,41 @@
 
 }
 .teams-progress{
+    margin-top: 2.25rem;
+}
+.teams-progress,
+.accordion-progress{
     height: 1.5rem;
     background-color: #dddddd;
     position: relative;
-    margin-top: 2.25rem;
     overflow: visible;
     border-radius: 10rem;
 }
+.accordion-progress{
+    width: 16rem;
+}
 
+
+
+.teams-progress::after,
+.progress-bar::after,
+.accordion-progress::after{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.teams-progress::after,
+.progress-bar::after{
+    transform: translateY(-100%);
+}
 
 .teams-progress::after{
     content: attr(data-valuemax) "%";
+}
+.accordion-progress::after{
+    content: attr(data-valuemax);
 }
 
 .progress-bar::after{
@@ -35,18 +59,8 @@
     color: #000;
 }
 
-.teams-progress::after,
-.progress-bar::after{
-    position: absolute;
-    right: 0;
-    top: 0;
-    font-size: 1.7rem;
-    transform: translateY(-100%);
-    font-weight: 400;
-}
 .progress-bar::after{
     transform: translateY(-100%) translateX(50%);
-    
     z-index: 1;
 }
 
@@ -68,5 +82,9 @@
     overflow: visible;
     font-size: 1.4rem;
     min-height: 1.5rem;
+}
+
+.accordion-progress .progress-bar::after{
+    position: relative;
 }
 
