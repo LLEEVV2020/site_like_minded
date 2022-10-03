@@ -3,6 +3,7 @@
     font-size: 2.2rem;
     color: #000;
     padding: .545em 1.045em;
+    font-family: 'Roboto', sans-serif;
 }
 .accordion-team .accordion-button:focus{
     border-top-left-radius: 1.6rem;
@@ -16,4 +17,26 @@
 
 .accordion-team .accordion-button::after{
     margin-left: inherit;
+    background-position: center;
+    background-image: url(img/corner-black.svg);
+    width: 0.7275em;
+    height: 0.7275em;
+    background-size: cover;
+    transform: rotate(-90deg);
+    
 }
+.accordion-team .accordion-button:not(.collapsed)::after{
+    transform: rotate(-180deg);
+    background-image: url(img/corner-black.svg);
+}
+
+.accordion-team .strip{
+    border-right: 1px solid #212121;
+    display: block;
+    height: 2rem;
+    transform: scaleY(1.55);
+    margin-left: 9rem;
+    margin-right: 3rem;
+    opacity: .8;
+}
+

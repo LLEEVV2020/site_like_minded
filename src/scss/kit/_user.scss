@@ -1,0 +1,131 @@
+.users{
+    counter-reset: user;
+}
+.user{
+    border-radius: 1.6rem;
+    background: #FFFFFF;
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+.user::before{
+    content: counter(user) "#";
+    counter-increment: user;
+    font-weight: 500;
+    margin-right: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.user-total{
+    margin-left: auto;
+}
+
+.user-img,
+.user-contacts-img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background: #D9D9D9;
+    
+}
+.user-img{
+    margin-right: 1rem;
+}
+.user-name{
+    margin-right: 5.3rem;
+    font-size: 1.8rem;
+}
+
+.user-profession{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+/*user-contacts*/
+.user-contacts{
+    background: #FFFFFF;
+    border-radius: 1.2rem;
+    min-height: 6rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #000;
+    max-width: 98rem;
+}
+.user-contacts-img{
+    margin-right: 1rem;
+}
+.user-contacts-name{
+    margin-right: 5rem;
+}
+.user-contacts-descr{
+    font-weight: 300;
+    color: #424141;
+}
+.user-contacts-telegram{
+    font-weight: 300;
+}
+.user-contacts-prof{
+    margin-left: auto;
+    margin-right: 10rem;
+}
+.user-contacts-telegram{
+    margin-right: auto;
+}
+
+.work{
+    background: #FFFFFF;
+    border-radius: 2rem;
+    display: flex;
+    overflow: hidden;
+    max-width: 43.2rem;
+}
+.work-img{
+    width: 19rem;
+    min-height: 16rem;
+    margin-right: .8rem;
+}
+.work-title{
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 0.9rem;
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 0.2rem;
+}
+.work-text{
+    font-size: 1.4rem;
+    margin-left: .7rem;
+    max-width: 17.5rem;
+}
+.work-body{
+    margin-right: 1.7rem;
+    padding-top: 1.4rem;
+    width: 100%;
+}
+.work-btn{
+    background: linear-gradient(93.96deg, #246CE2 23.81%, #5F9BFC 100%);
+    width: 2.286em;
+    height: 2.286em;
+    border-radius: 50%;
+    position: relative;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(160deg);
+}
+.work-btn::before{
+    content: "";
+    display: block;
+    background-image: url(img/corner-white.svg);
+    width: 1em;
+    height: 1.15em;
+    transform: translateX(-10%);
+}
