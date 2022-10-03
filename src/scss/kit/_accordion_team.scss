@@ -13,3 +13,7 @@
 .accordion-team .accordion-text{
     margin-right: auto;
 }
+
+.accordion-team .accordion-button::after{
+    margin-left: inherit;
+}

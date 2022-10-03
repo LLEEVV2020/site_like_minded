@@ -36,12 +36,16 @@
 .teams-progress::after,
 .progress-bar::after,
 .accordion-progress::after{
-    position: absolute;
-    right: 0;
-    top: 0;
     font-size: 1.7rem;
     font-weight: 400;
 }
+.teams-progress::after,
+.progress-bar::after{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 .teams-progress::after,
 .progress-bar::after{
     transform: translateY(-100%);
@@ -50,9 +54,7 @@
 .teams-progress::after{
     content: attr(data-valuemax) "%";
 }
-.accordion-progress::after{
-    content: attr(data-valuemax);
-}
+
 
 .progress-bar::after{
     content: attr(aria-valuenow) "%";
@@ -85,6 +87,34 @@
 }
 
 .accordion-progress .progress-bar::after{
-    position: relative;
+    display: none;
 }
 
+.accordion-progress::after{
+    content: attr(data-valuenow);
+    right: 0;
+    /*position: absolute;
+    top: 50%;
+    transform: translate(100%, -50%);*/
+}
+.accordion-progress{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordion-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2.7rem;
+}
+.accordion-wrapper::after{
+    content: attr(data-valuenow);
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.accordion-progress .progress-bar{
+    height: 1.5rem;
+}
