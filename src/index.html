@@ -2,87 +2,26 @@
 <html lang="ru">
 
 	<head>
-	@@include('html/_head.html',{ "title":"FFP" })
+	@@include('html/base/_head.html',{ "title":"FFP" })
 
 	</head>
 
 	<body>
 
 		<div class="wrapper">
-			<a href="kit.html">kit</a>
-
-			<div class="swiper__wrapper">
-				<!-- Slider main container -->
-				<div class="swiper">
-					<!-- Additional required wrapper -->
-					<div class="swiper-wrapper">
-					<!-- Slides -->
-					<div class="swiper-slide">
-
-						<div class="row align-items-center justify-content-center gap-3">
-							<div class="card" >
-								<div class="card-add-wrapper">
-									<div class="card-add"></div>
-									<div class="card-add-text">Добавить объявление</div>	
-								</div>
-								
-							</div>
-							<div class="card" >
-								<div class="card-header">
-									<div class="card-header-title">Требуеться </div>
-									<div class="card-header-bottom">Разработчик</div>
-								</div>
-								<div class="card-body">
-								<div class="card-title">Ищем верстальщика</div>
-								<div class="card-text">Требуется верстальщик для верстки лэндинга</div>
-								</div>
-								
-								<div class="card-detailed">Подробнее</div>
-							</div>
-							<div class="card" >
-								<div class="card-header">
-									<div class="card-header-title">Требуеться </div>
-									<div class="card-header-bottom">Разработчик</div>
-								</div>
-								<div class="card-body">
-								<div class="card-title">Ищем верстальщика</div>
-								<div class="card-text">Требуется верстальщик для верстки лэндинга</div>
-								</div>
-								
-								<div class="card-detailed">Подробнее</div>
-							</div>
-							<div class="card" >
-								<div class="card-header">
-									<div class="card-header-title">Требуеться </div>
-									<div class="card-header-bottom">Разработчик</div>
-								</div>
-								<div class="card-body">
-								<div class="card-title">Ищем верстальщика</div>
-								<div class="card-text">Требуется верстальщик для верстки лэндинга</div>
-								</div>
-								
-								<div class="card-detailed">Подробнее</div>
-							</div>
-						</div>
-
-					</div>
-					<div class="swiper-slide">Slide 2</div>
-					<div class="swiper-slide">Slide 3</div>
-					
-					</div>
-					<!-- If we need pagination -->
-					<div class="swiper-pagination"></div>
+			<div class="container d-flex">
 				
-					<!-- If we need navigation buttons 
-					<div class="swiper-button-prev"></div>-->
+	
+				@@include('html/block/_header.html',{})
+
+				<main>
+					@@include('html/block/_who-is-needed.html',{})
 					
-				
-					<!-- If we need scrollbar -->
-					<div class="swiper-scrollbar"></div>
-				</div>
-				<div class="swiper-button-next"></div>
 
-
+					
+	
+					<a href="kit.html">kit</a>
+				</main>
 			</div>
 
 
@@ -91,7 +30,7 @@
 
 
 		
-		@@include('html/_js.html',{})
+		@@include('html/base/_js.html',{})
 
 
 
