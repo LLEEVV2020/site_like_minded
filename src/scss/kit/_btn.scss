@@ -4,7 +4,7 @@
     width: 8.889em;
     height: 2.222em;
     border-radius: .222em;
-
+    border: none;
     background: var(--btn-primary) ;
 }
 .btn:active{
@@ -23,4 +23,7 @@
 .btn-right{
     margin-left: auto;
     display: block;
+}
+.btn-size-2{
+    width: 21rem;
 }
