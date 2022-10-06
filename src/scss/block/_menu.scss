@@ -3,33 +3,12 @@
     padding-left: 1rem;
     margin-bottom: 2rem;
 
-    [class^=icon-], [class*=" icon-"]{
-        color: #4DBCE9;
-        border-radius: 50%;
-        border: 1px solid #4DBCE9;
-        width: 2.8rem;
-        height: 2.8rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 1.2rem;
-    }
 
     ul{
         padding-left: 0;
     }
     ul li{
         list-style-type: none;
-    }
-   
-    a{
-        text-decoration: none;
-        font-size: 1.8rem;
-        font-weight: 400;
-        display: flex;
-        align-items: center;
-        color: #000;
-        margin-bottom: 1.2rem;
     }
 
     .icon-item{
@@ -48,7 +27,42 @@
         font-size: 1.675rem;
     }
 
-    .important::after{
+    
+
+}
+.important-people,
+.left-menu a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    color: #000;
+    margin-bottom: 1.2rem;
+}
+.left-menu [class^=icon-], 
+.left-menu [class*=" icon-"],
+.important-people .icon-people{
+    color: #4DBCE9;
+    border-radius: 50%;
+    border: 1px solid #4DBCE9;
+    width: 2.8rem;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.2rem;
+}
+
+
+.important-people{
+    padding: 1.5rem 0;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 1.6rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    &::after{
         content: "";
         display: block;
         height: 1.4rem;
@@ -57,15 +71,5 @@
         background-size: cover;
         margin-left: auto;
     }
-    .important{
-        padding: 1.5rem 0;
-        border-top: 1px solid #DDDDDD;
-        border-bottom: 1px solid #DDDDDD;
-        margin-bottom: 1.6rem;
-    }
-    
-
 }
-
-
 
