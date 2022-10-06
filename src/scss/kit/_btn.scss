@@ -16,3 +16,11 @@
 .btn:hover{
     background: var(--btn-primary-hover) ;
 }
+
+.btn-size-1{
+    width: 18rem;
+}
+.btn-right{
+    margin-left: auto;
+    display: block;
+}

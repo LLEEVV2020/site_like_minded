@@ -16,8 +16,9 @@
 }
 .card-body{
     padding: 0;
-    padding-top: .5rem;
+    padding-top: 0.9rem;
     padding-bottom: 1.1rem;
+    
 }
 .card-header{
     min-height: 15rem;
@@ -56,13 +57,21 @@
     font-size: 1.8rem;
     background: linear-gradient(93.96deg, #246CE2 23.81%, #5F9BFC 100%);
     border-radius: 50%;
-    width: 3.445em;
-    height: 3.445em;
+    width: 3.45em;
+    height: 3.45em;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: .667em;
     
+    /*&::before{
+        content: "";
+        border-radius: 50%;
+        background-color: #fff;
+        width: 1.45em;
+        height: 1.45em;
+    }*/
+
     &::after{
         content: "";
         background-image: url(img/plus.svg);

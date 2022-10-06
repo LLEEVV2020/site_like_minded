@@ -1,31 +1,37 @@
 .swiper {
-    width: 870px;
-    height: 300px;
+  width: 870px;
+}
+
+.swiper__wrapper{
+  width: 870px;
+  position: relative;
+
+  .swiper{
+    margin-bottom: 1.2rem;
   }
-  .swiper__wrapper{
-    width: 870px;
-    position: relative;
 
-    .swiper-button-next{
-      right: -4.6rem;
-      transform: translateX(100%);
-      width: 3.8rem;
-    }
-
-    .swiper-button-next:after{
-      font-size: 7.575rem;
-    }
-    .swiper-button-next::after{
-      display: none;
-    }
-    .swiper-button-next::before{
-      content: "";
-      display: block;
-      height: 7.6rem;
-      width: 3.8rem;
-      background-image: url(img/corner-blue.svg);
-    }
-
+  .swiper-button-next{
+    right: -4.6rem;
+    transform: translateX(100%) translateY(-50%);
+    width: 3.8rem;
+    top: 50%;
+    margin-top: -2rem;
   }
+
+  .swiper-button-next:after{
+    font-size: 7.575rem;
+  }
+  .swiper-button-next::after{
+    display: none;
+  }
+  .swiper-button-next::before{
+    content: "";
+    display: block;
+    height: 7.6rem;
+    width: 3.8rem;
+    background-image: url(img/corner-blue.svg);
+  }
+
+}
 
   

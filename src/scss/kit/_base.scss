@@ -14,7 +14,8 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #191C2B;
+   /* background-color: #191C2B;*/
+   background: #FAFAFA;
     align-items: center;
     justify-content: center;
     
@@ -84,4 +85,16 @@ body{
 }
 .advertisement-body{
     margin-bottom: .8rem;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 2.6rem;
+    margin-bottom: 1.6rem;
+    color: #000;
+    padding-left: 2rem;
+}
+
+main{
+    padding-top: 3rem;
 }

@@ -14,32 +14,41 @@
     -moz-osx-font-smoothing: grayscale;
 
     
-    color: #fff;
+    /*color: #fff;*/
   }
   
+.icon-phones:before {
+  content: "\e90a";
+}
+.icon-phone:before {
+  content: "\e909";
+}
   
-  .icon-editing::before {
+  .icon-i:before {
+    content: "\e908";
+  }
+  .icon-editing:before {
     content: "\e900";
   }
-  .icon-exclamation-point::before {
+  .icon-exclamation-point:before {
     content: "\e901";
   }
-  .icon-item::before {
+  .icon-item:before {
     content: "\e902";
   }
-  .icon-cards::before {
+  .icon-cards:before {
     content: "\e903";
   }
-  .icon-connections::before {
+  .icon-connections:before {
     content: "\e904";
   }
-  .icon-phone-email::before {
+  .icon-phone-email:before {
     content: "\e905";
   }
-  .icon-peoples::before {
+  .icon-peoples:before {
     content: "\e906";
   }
-  .icon-people::before {
+  .icon-people:before {
     content: "\e907";
   }
 
@@ -62,6 +71,9 @@
   }
   .social-telegram{
     background-color: #27A6E5;
+    &::before{
+      transform: translate(-0.15em, 0.1em);
+    }
   }
   [class^="social-telegram"]::before, 
   [class*=" social-telegram"]::before{
@@ -76,6 +88,7 @@
     background-image: url(img/icon/whatsapp.svg);
     width: 1.500em;
     height: 1.500em;
+    transform: translate(0.05em, 0);
   }
 
   .social-viber{
@@ -85,6 +98,7 @@
     background-image: url(img/icon/viber.svg);
     width: 1.500em;
     height: 1.643em;
+    transform: translate(0.055em, 0.15em);
   }
   .social-vk-black{
     background-color: #000000;

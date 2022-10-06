@@ -1,0 +1,71 @@
+.left-menu {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+
+    [class^=icon-], [class*=" icon-"]{
+        color: #4DBCE9;
+        border-radius: 50%;
+        border: 1px solid #4DBCE9;
+        width: 2.8rem;
+        height: 2.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1.2rem;
+    }
+
+    ul{
+        padding-left: 0;
+    }
+    ul li{
+        list-style-type: none;
+    }
+   
+    a{
+        text-decoration: none;
+        font-size: 1.8rem;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        color: #000;
+        margin-bottom: 1.2rem;
+    }
+
+    .icon-item{
+        font-size: 1.6rem;
+    }
+    .icon-i{
+        font-size: 1.4rem;
+    }
+    .icon-phone-email{
+        font-size: 1.575rem;
+    }
+    .icon-peoples{
+        font-size: 1.45rem;
+    }
+    .icon-connections{
+        font-size: 1.675rem;
+    }
+
+    .important::after{
+        content: "";
+        display: block;
+        height: 1.4rem;
+        width: 0.7rem;
+        background-image: url(img/corner-blue.svg);
+        background-size: cover;
+        margin-left: auto;
+    }
+    .important{
+        padding: 1.5rem 0;
+        border-top: 1px solid #DDDDDD;
+        border-bottom: 1px solid #DDDDDD;
+        margin-bottom: 1.6rem;
+    }
+    
+
+}
+
+
+
