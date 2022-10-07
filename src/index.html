@@ -9,9 +9,7 @@
 	<body>
 
 		<div class="wrapper">
-			<div class="container d-flex">
-				
-	
+			<div class="container d-flex flex-wrap">
 				
 				@@include('html/block/_header.html',{})
 
@@ -20,13 +18,19 @@
 					@@include('html/block/_who-is-needed.html',{})
 					
 
-					@@include('html/block/_top participants.html',{})
+					@@include('html/block/_top_participants.html',{})
 					
-	
-					<a href="kit.html">kit</a>
+					@@include('html/block/_advertisement.html',{})
+
+					@@include('html/block/_сurrently_operation.html',{})
+
 				</main>
+
+				
+
 			</div>
 
+			@@include('html/block/_footer.html',{})
 
 		</div>
 		
