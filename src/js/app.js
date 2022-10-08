@@ -48,3 +48,38 @@ const swiper = new Swiper('.swiper', {
 });
 
 
+// https://www.chartjs.org/docs/latest/charts/doughnut.html#doughnut
+const data = {
+
+  datasets: [{
+    cutout: 0,
+    data: [135, 45, 90, 90],
+    backgroundColor: [
+      '#76FFF7',
+      '#79FF76',
+      '#FFF976',
+      '#FF7676'
+    ],
+
+    hoverOffset: 4,
+    
+  }]
+};
+
+const config = {
+  
+  options: {
+      plugins: {
+          tooltip: {
+            enabled: false
+          }
+      }
+  },
+  type: 'doughnut',
+ 
+  data: data,
+};
+const myChart = new Chart(
+  document.getElementById('myChart'),
+  config
+);

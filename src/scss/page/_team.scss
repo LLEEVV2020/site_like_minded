@@ -6,4 +6,71 @@
         row-gap: 2rem;
         column-gap: 6.5rem;
     }
+
+
 }
+
+.shares{
+    width: 9.2rem;
+    height: 9.2rem;
+    transform: rotate(-90deg);
+}
+.shares-description{
+    background: #FFFFFF;
+    border-radius: 12px;
+    max-width: 41rem;
+    padding: 2rem 1.3rem 1.3rem;
+    font-weight: 400;
+    column-count: 2;
+
+    div{
+        margin-bottom: .5rem;
+        display: flex;
+        align-items: center;
+        &::before{
+            content: "";
+            margin-right: .3rem;
+            width: 1.6rem;
+            height: 1.6rem;
+            border-radius: 50%;
+            display: block;
+        }
+        &:last-child{
+            margin-top: 3rem;
+        }
+    }
+
+    .design{
+        &::before{
+            background-color: #FF7676;
+        }
+    }
+    .backend{
+        &::before{
+            background-color: #76FFF7;  
+        }
+    }
+    .frontend{
+        &::before{
+            background-color: #FFFA76;
+        }
+    }
+    .copywriting{
+        &::before{
+            background-color: #79FF76;
+        }
+    }
+}
+
+.shares-content{
+    max-width: 42.9rem;
+}
+.shares-wrapper{
+    display: flex;
+    margin-top: 2.3rem;
+    align-items: flex-start;
+    & > *{
+        width: 100%;
+    }
+}
+
