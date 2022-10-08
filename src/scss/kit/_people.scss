@@ -6,6 +6,35 @@
     border-radius: 1.2rem;    
     padding-right: .8rem;
     padding-left: .8rem;
+    display: flex;
+    flex-direction: column;
+}
+.people-add{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.people-cross{
+    height: 4.2rem;
+    margin-bottom: 3.6rem;
+    
+    &:before,
+    &:after {
+        content: "";
+        display: block;
+        width: 4.2rem;
+        height: 2px;
+        background: #555;
+    }
+    
+    &:before {
+        transform: rotate(0deg);
+    }
+    
+    &:after {
+        transform: rotate(-90deg);
+    }
 }
 
 .people-full-img{

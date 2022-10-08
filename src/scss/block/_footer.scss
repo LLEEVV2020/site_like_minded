@@ -1,5 +1,49 @@
 footer{
     background: #060E2B;
     width: 100%;
+    padding-top: 2.6rem;
+    
+    color: #fff;
 
+    .logo:hover, .logo {
+        color: #fff;
+    }
+    .logo::after{
+        background-image: url(img/corner_white.svg);
+    }
+
+    .container::before {
+        content: "";
+        display: block;
+        width: 32rem;
+    }
+}
+
+.footer-line{
+    margin-top: .6rem;
+    border-top: 1px solid #DDDDDD;
+    padding: .8rem 0 .7rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    span{
+        padding-left: 20%;
+    }
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+    a{
+        background-color: #060E2A;
+    }
+}
+
+.politics-confederacy{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-left: auto;
+    text-align: center;
+    margin-right: 2.8rem;
+    text-decoration: none;
 }
