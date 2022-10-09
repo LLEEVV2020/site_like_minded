@@ -79,7 +79,16 @@ const config = {
  
   data: data,
 };
-const myChart = new Chart(
-  document.getElementById('myChart'),
+
+var sharess = document.querySelectorAll(".sharess");
+sharess.forEach(query => {
+  new Chart(
+    query,
+    config
+  );
+});
+
+/*const myChart = new Chart(
+  document.querySelector('.sharess'),
   config
-);
+);*/
