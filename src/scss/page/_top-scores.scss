@@ -9,5 +9,29 @@
 /*блок "все пользователи"*/
 
 .all-users{
+    .pagination{
+        margin-top: 2rem;
+        justify-content: flex-end;
+        a{
+            font-weight: 400;
+            font-size: 1.6rem;
+            color: #000;
+            &:hover{
+                color: #4DBCE9;
+            }
+        }
 
+        .page-link,  .active a{
+            padding: 0;
+            background: none;
+            border: none;
+            margin-left: .6rem;
+        }
+
+        .active a{
+            color: #4DBCE9;
+            margin-left: .8rem;
+            box-shadow: none;
+        }
+    }
 }
