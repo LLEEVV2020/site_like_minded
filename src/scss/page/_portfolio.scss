@@ -1,0 +1,18 @@
+.portfolio-tab{
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    
+    .nav-link.active, 
+    .show>.nav-link{
+        background: linear-gradient(93.96deg, #246CE2 23.81%, #5F9BFC 100%);
+
+    }
+    .nav-link{
+        font-weight: 400;
+    }
+    
+    
+}
