@@ -91,6 +91,7 @@
     max-width: 43.2rem;
     margin-bottom: 1rem;
     position: relative;
+    cursor: pointer;
     &.active::before{
         content: "";
         width: 100%;
@@ -98,11 +99,10 @@
         position:absolute;
         top: 0;
         left: 0;
-        background: linear-gradient(0deg, rgba(135, 135, 135, 0.1), rgba(135, 135, 135, 0.1)), #FFFFFF;
-
+        background: linear-gradient(0deg, rgba(135, 135, 135, 0.1), rgba(135, 135, 135, 0.1));
+        z-index: 1;
     }
     &.active{
-        background: linear-gradient(0deg, rgba(135, 135, 135, 0.1), rgba(135, 135, 135, 0.1)), #FFFFFF;
         .work-img{
             position: relative;
             z-index: 0;
@@ -116,6 +116,9 @@
     width: 19rem;
     min-height: 16rem;
     margin-right: .8rem;
+}
+.work-img-wrapper{
+    margin-left: 1rem;
 }
 .work-title{
     font-size: 2.2rem;
