@@ -57,6 +57,16 @@
 
 .profile-description{
     width: 100%;
+    ul{
+        font-size: 1.6rem;
+       padding-left: 0; 
+       list-style-type: none;
+      padding-left: 1rem;
+      margin-bottom: 0;
+      li + li{
+        margin-top: .5rem;
+      }
+    }
 }
 
 .h2-title{
@@ -66,13 +76,29 @@
     padding-top: 1.6rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 .profile-jobtitle{
     background: #FFFFFF;
     border-radius: 1.2rem;
+    padding-bottom: 3.1rem;
+    margin-bottom: 2.5rem;
 }
 .profile-aboutme{
     background: #FFFFFF;
     border-radius: 1.2rem;
+    padding-bottom: 3.4rem;
+    margin-bottom: 1.2rem;
+    .h2-title{
+        margin-bottom: 1.5rem;
+    }
+    textarea{
+        width: 100%;
+        min-height: 20rem;
+        padding: 1.2rem 1.3rem;
+        background: #EFEFEF;
+        border-radius: 1.6rem;
+        border: none;
+    }
 }
