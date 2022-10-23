@@ -1,0 +1,37 @@
+.contact-wrapper{
+    h1{
+        margin-bottom: 1.6rem;
+        padding-left: 2rem;
+    }
+    h2{
+        padding-left: 0;
+        font-size: 2.2rem;
+    }
+
+    ul{
+        padding-left: 0;
+        list-style-type: none;
+        a{
+            color: #000;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            font-weight: 400;
+            font-size: 1.6rem;
+        }
+    }
+}
+
+.contact-site, .contact-mail{
+    background: #fff;
+    font-weight: 400;
+    font-size: 1.6rem;
+    border-radius: 2rem;
+    padding: 1.061rem 1.3rem 1.1rem;
+}
+.contact-site{
+    margin-bottom: .6rem;
+}
+.contact-mail{
+    margin-bottom: 3rem;
+}
