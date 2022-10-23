@@ -44,7 +44,26 @@
     }
 
 }
+.members-wrapper{
+    .user-contacts-descr{
+        text-align: center;
+    }
+    .user-contacts-prof{
+        text-align: center;
+    }
+}
+
 .members-table-head{
     display: flex;
     align-items: center;
+    padding-top: 1.6rem;
+    color:  #8A8A8A;
+    text-align: center;
+    .user-contacts-descr{
+        color:  #8A8A8A;
+    }
+    .user-contacts-name{
+        padding-left: 2rem;
+        text-align: left;
+    }
 }
