@@ -7,14 +7,41 @@
     h2{
         margin-bottom: 2rem;
         padding-left: 2.4rem;
+        font-size: 2.2rem;
     }
 }
 .accordion-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
     .accordion-header  a{
         text-decoration: none;
     }
     .accordion-item{
         background: #fff;
         margin-bottom: 2rem;
+        border-radius: 1.6rem;
+        overflow: hidden;
+        width: 100%;
+    }
+    .accordion-button{
+        justify-content: space-between;
+        padding-top: 1.4rem;
+        padding-left: 1rem;
+        padding-bottom: .8rem;
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    .accordion-body {
+        padding-top: 0;
+        font-size: 1.6rem;
+        padding-bottom: 1.4rem;
+    }
+
+    .accordion-item-light{
+        width: 49%;
+        width: calc(50% - 0.5rem);
+        margin-bottom: 1rem;
     }
 }
