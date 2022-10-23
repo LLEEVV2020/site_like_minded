@@ -1,4 +1,5 @@
 .members-wrapper{
+    margin-bottom: 10rem;
     h1{
         margin-bottom: 2.1rem;
         margin-left: 2rem;
@@ -59,11 +60,14 @@
     padding-top: 1.6rem;
     color:  #8A8A8A;
     text-align: center;
+    font-size: 1.8rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
     .user-contacts-descr{
         color:  #8A8A8A;
     }
     .user-contacts-name{
-        padding-left: 2rem;
+        //padding-left: 2rem;
         text-align: left;
     }
 }
