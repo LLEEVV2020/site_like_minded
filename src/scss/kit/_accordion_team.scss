@@ -21,7 +21,7 @@
     .accordion-button::after{
         margin-left: inherit;
         background-position: center;
-        background-image: url(img/corner-black.svg);
+        background-image: url(../img/corner-black.svg);
         width: 0.7275em;
         height: 0.7275em;
         background-size: cover;
@@ -30,7 +30,7 @@
     }
     .accordion-button:not(.collapsed)::after{
         transform: rotate(-90deg);
-        background-image: url(img/corner-black.svg);
+        background-image: url(../img/corner-black.svg);
     }
     
     .strip{

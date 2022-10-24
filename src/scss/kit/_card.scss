@@ -49,7 +49,7 @@
     content: "";
     width: 1.000em;
     height: 1.143em;
-    background-image: url(img/double-angle.svg);
+    background-image: url(../img/double-angle.svg);
     margin-left: .429em;
 }
 
@@ -74,7 +74,7 @@
 
     &::after{
         content: "";
-        background-image: url(img/plus.svg);
+        background-image: url(../img/plus.svg);
         width: 1.4em;
         height: 1.4em;
         display: block;

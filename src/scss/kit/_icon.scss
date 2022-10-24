@@ -77,7 +77,7 @@
   }
   [class^="social-telegram"]::before, 
   [class*=" social-telegram"]::before{
-    background-image: url(img/icon/telegram.svg);
+    background-image: url(../img/icon/telegram.svg);
     width: 1.357em;
     height: 1.214em;
   }
@@ -85,7 +85,7 @@
     background-color: #48C95F;
   }
   .social-whatsapp::before{
-    background-image: url(img/icon/whatsapp.svg);
+    background-image: url(../img/icon/whatsapp.svg);
     width: 1.500em;
     height: 1.500em;
     transform: translate(0.05em, 0);
@@ -95,7 +95,7 @@
     background-color: #7C509A;
   }
   .social-viber::before{
-    background-image: url(img/icon/viber.svg);
+    background-image: url(../img/icon/viber.svg);
     width: 1.500em;
     height: 1.643em;
     transform: translate(0.055em, 0.15em);
@@ -104,7 +104,7 @@
     background-color: #000000;
   }
   .social-vk-black::before{
-    background-image: url(img/icon/vk.svg);
+    background-image: url(../img/icon/vk.svg);
     width: 1.571em;
     height: 1.000em;
   }
